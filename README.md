@@ -2,16 +2,16 @@
 -----
 ## English text classifier
 
-### Dataset
+* Dataset
 &nbsp;&nbsp;&nbsp;&nbsp; AXS_recognize_english_dataset_v10.csv
   
-### Task  
+* Task  
 &nbsp;&nbsp;&nbsp;&nbsp; Binary classification, distinguish between English text and non-English text.
   
-### Implement
+* Implement
 &nbsp;&nbsp;&nbsp;&nbsp; Fine-tuning XLNet downstream classification tasks
 
-### Experiment
+* Experiment
 
 &nbsp;&nbsp;&nbsp;&nbsp; Accuracy on the test set
 <table>
@@ -25,3 +25,104 @@
   </tr>
 </table>   
 
+## Sentiment classifer
+### Experiment 1
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+XLNet-Base
+* hyperparameter  
+iter = 400   
+batch size = #    
+learning rate = # 
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 75.8% </td>
+    <td> 73.4% </td>
+  </tr>
+</table>   
+
+### Experiment 2
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+XLNet-Base
+* hyperparameter  
+iter = 4000   
+batch size = 32    
+learning rate = 2e-5 
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 74.4% </td>
+    <td> 71.3% </td>
+  </tr>
+</table>   
+
+### Experiment 3
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+XLNet-Large
+* hyperparameter  
+iter = 400   
+batch size = #    
+learning rate = # 
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 67.5% </td>
+    <td> 66.07% </td>
+  </tr>
+</table>   
+
+
+### Experiment 4
+* task  
+Sentiment analysis, classify dataset text as positive, negitive, neutral
+* dataset  
+AXS_data_3class_v10.csv
+* model  
+XLNet-Large
+* hyperparameter  
+iter = 400   
+batch size = #    
+learning rate = # 
+* result  
+&nbsp;&nbsp;&nbsp;&nbsp; 
+F1-score on the test set
+<table>
+  <tr>
+    <td>micro-F1</td>
+    <td>macro-F1</td>
+  </tr>
+  <tr>
+    <td> 59.3% </td>
+    <td> 24.8% </td>
+  </tr>
+</table>   
