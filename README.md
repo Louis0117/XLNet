@@ -33,7 +33,7 @@ Sentiment analysis, classify dataset text as positive, negitive, neutral
 AXS_data_3class_v10.csv
 * model  
 XLNet-Base
-* hyperparameter (best)
+* hyperparameter (best)  
 iter = 1500   
 batch size = 32    
 learning rate = 1e-5 
