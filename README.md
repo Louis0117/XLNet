@@ -33,10 +33,10 @@ Sentiment analysis, classify dataset text as positive, negitive, neutral
 AXS_data_3class_v10.csv
 * model  
 XLNet-Base
-* hyperparameter  
-iter = 400   
-batch size = #    
-learning rate = # 
+* hyperparameter (best)
+iter = 1500   
+batch size = 32    
+learning rate = 1e-5 
 * result  
 &nbsp;&nbsp;&nbsp;&nbsp; 
 F1-score on the test set
@@ -46,8 +46,8 @@ F1-score on the test set
     <td>macro-F1</td>
   </tr>
   <tr>
-    <td> 75.8% </td>
-    <td> 73.4% </td>
+    <td> 75.5% </td>
+    <td> 72.8% </td>
   </tr>
 </table>   
 
