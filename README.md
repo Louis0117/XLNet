@@ -2,13 +2,13 @@
 -----
 ## English text classifier
 
-* Dataset
+* Dataset  
 &nbsp;&nbsp;&nbsp;&nbsp; AXS_recognize_english_dataset_v10.csv
   
 * Task  
 &nbsp;&nbsp;&nbsp;&nbsp; Binary classification, distinguish between English text and non-English text.
   
-* Implement
+* Implement  
 &nbsp;&nbsp;&nbsp;&nbsp; Fine-tuning XLNet downstream classification tasks
 
 * Experiment
