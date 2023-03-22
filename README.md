@@ -1,6 +1,6 @@
 # XLNet
 -----
-## English text  classifier
+## English text classifier
 
 * Dataset  
 &nbsp;&nbsp;&nbsp;&nbsp; AXS_recognize_english_dataset_v10.csv
